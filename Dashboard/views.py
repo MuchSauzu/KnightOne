@@ -2,9 +2,9 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def produk(request):
-    titelnya="produk"
+def pricing(request):
+    titelnya="pricing"
     konteks = {
         'titel':titelnya,
     }
-    return render (request,'produk.html',konteks)
+    return render(request, 'pricing.html',konteks)
