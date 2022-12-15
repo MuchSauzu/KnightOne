@@ -1,7 +1,13 @@
 /*
  * Globals
  */
-
+#back{
+  width: 100%;
+  height: 100vh;
+  background: url("/static/img/bg.jpg");
+  background-size: cover;
+  position: relative;
+}
 
 /* Custom default button */
 .btn-secondary,
